@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="./css/background.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/api.css">
+    <title>PokéView</title>
+</head>
+
+<body>
+
+    <main>
+        <figure class="pokeview">
+
+
+            <div class="pokeview__screen">
+
+                <div class="pokeview__icon-cam">
+                    <span class="icon-cam"></span>
+                </div>
+
+                <div class="pokeview__signal-animated">
+                    <span class="signal-animated signal__small"></span>
+                    <span class="signal-animated signal__medium"></span>
+                    <span class="signal-animated signal__high"></span>
+                </div>
+
+                <h1 class="pokemon__data">
+                    <span class="pokemon__number"></span> -
+                    <span class="pokemon__name"></span>
+                </h1>
+
+                <img src="./img/background-florest.png" alt="background florest" class="pokeview__background-florest">
+                <img src="#" alt="pokemon" class="pokemon__image">
+
+            </div>
+
+            <form class="pokeview__form">
+                <input type="search" class="input__search" placeholder="Nome ou Número" required />
+            </form>
+
+            <div class="buttons">
+                <div class="buttons__left">
+                    <button class="button btn-prev" id="btn-left"> &lt; </button>
+                    <label for="btn-left" class="btn-label"> Anterior</label>
+                </div>
+
+                <div class="buttons__right">
+                    <button class="button btn-next" id="btn-right"> &gt; </button>
+                    <label for="btn-right" class="btn-label"> Próximo</label>
+                </div>
+            </div>
+            <p class="surround"> ( ( Surround ) )</p>
+            <audio controls autoplay loop>
+                <source src="./audio/pokemon-music.mp3" type="audio/mpeg">
+            </audio>
+
+        </figure>
+    </main>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

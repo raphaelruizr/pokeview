@@ -1,0 +1,20 @@
+.pokemon__data {
+    border-radius: 2% 2% 0 0;
+    font-weight: 600;
+    color: red;
+    background-color: white;
+    box-shadow: 3px 4px 0 #888;
+}
+
+.pokemon__name {
+    color: #3a444d;
+    text-transform: capitalize;
+}
+
+.pokemon__image {
+    position: absolute;
+    bottom: 50% ;
+    left: 34%;
+    transform: translate(-1%,1%);
+    height: 15%;
+}

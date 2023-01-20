@@ -1,0 +1,52 @@
+.pokeview__signal-animated {
+    display: flex;
+    justify-content: flex-end;
+    gap:2% ;
+    align-items: flex-end;
+    margin-bottom: 2%;
+}
+
+.signal__small {
+    animation: stage1 3s infinite;
+    width: 15px;
+    height: 15px;
+    border: 2px solid pink;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.signal__medium {
+    animation: stage2 3s infinite;
+    width: 20px;
+    height: 20px;
+    border: 2px solid pink;
+    background-color: blue;
+    border-radius: 50%;   
+}   
+
+.signal__high {
+    animation: stage3 3s infinite;
+    width: 25px;
+    height: 25px;
+    border: 2px solid pink;
+    background-color: blue;
+    border-radius: 50%;
+}   
+
+@keyframes stage1 {
+0% {background-color:rgb(14, 246, 6);}
+50% {background-color:black;}
+100% {background-color:black;}
+}
+
+@keyframes stage2 {
+0% {background-color:black;}
+50% {background-color:rgb(248, 244, 5);}
+100% {background-color:black;}    
+}
+
+@keyframes stage3 {
+0% {background-color:black;}
+50% {background-color:black;}
+100% {background-color:rgb(250, 6, 6);}
+}

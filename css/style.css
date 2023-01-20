@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+.pokeview {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(167, 0, 0));
+    border-radius: 2%;
+    border: 2px solid rgb(97, 0, 0);
+    box-shadow: 5px 5px 1px rgb(150, 0, 0), 8px 6px 0px rgb(100, 0, 0);
+}
+
+.pokeview__screen {
+    padding: 10%;
+}
+
+.pokeview__icon-cam {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokeview__icon-cam .icon-cam {
+    height: 50px;
+    width: 50px;
+    background: radial-gradient(black 5px, rgb(53, 53, 53) 50%);
+    border: 3px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.pokeview__background-florest {
+    width: 100%;
+    max-height: 300px;
+    border: 2px solid white;
+    border-radius: 0 0 5% 5%;
+    box-shadow: 3px 4px 0 #888;
+}
+
+.pokeview__form {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.input__search {
+    width: 100%;
+    padding: 4%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow: 3px 4px 0 #888;
+}
+
+.surround {
+    color: white;
+    font-weight: 600;
+}
+
+audio {
+    width: 100%;
+    padding: 2%;
+}
