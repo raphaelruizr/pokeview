@@ -27,3 +27,4 @@ Pretendo criar uma nova versão utilizando ReactJS e acrescentar algumas animaç
 ## Guia/Link do projeto:
 
 [LINK DO PROJETO](https://pokeview-tau.vercel.app/) <--- Clique aqui para abrir o projeto
+<img src="https://github.com/raphaelruizr/pokeview/blob/main/readme-documentacao/guia.png?raw=true">
